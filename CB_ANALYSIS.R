@@ -93,7 +93,7 @@ ggplot() +
 #fit_transformed <- auto.arima(ts_usd_transformed)
 
 # Forecast
-#forecast_transformed <- forecast(fit_transformed)
+forecast_transformed <- forecast(fit_transformed)
 
 # Plot the forecast
 #autoplot(forecast_transformed) + 
